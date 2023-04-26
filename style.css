@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Source+Sans+Pro&display=swap');
+
+.container{
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  background: rgb(147,241,225);
+  background: linear-gradient(0deg, rgba(147,241,225,1) 0%, rgba(66,147,85,1) 100%);
+  text-align: center;
+  color:rgb(10, 10, 10)
+}
+
+h1 , h2 {
+  font-family: 'Raleway', serif;
+  font-size: 32px;
+  color: #5D9C59;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+img {
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding: 24px 24px;
+  display: inline-block;
+  background-color: #DF2E38;
+  color: #DDF7E3;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #a4272d;
+  transition: 0.5s;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.card-grey{
+  width: 450px;
+  margin: 24px auto;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+  padding: 16px;
+  border: 4px, dashed, rgb(110, 110, 110);
+  border-radius: 5px;
+  box-shadow: 0 0 16px rgb(0 0 0 / 30%);
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+.list-inline li a {
+  color:  rgb(50,50,50);
+  font-size: 36px;
+  margin: 5px;
+  padding: 16px 16px;
+}
